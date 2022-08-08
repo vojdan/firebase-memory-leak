@@ -1,0 +1,6 @@
+node_modules/
+/functions/lib/
+.DS_Store
+*.cache
+.firebase/*
+*-debug.log

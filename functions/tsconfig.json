@@ -1,0 +1,17 @@
+{
+	"compilerOptions": {
+		"resolveJsonModule": true,
+		"target": "ES2021",
+		"lib": ["ES2021", "dom"],
+		"module": "commonjs",
+		"noImplicitReturns": true,
+		"outDir": "lib",
+		"sourceMap": true,
+		"allowJs": true,
+		"types": ["jest", "node"],
+		"checkJs": false
+	},
+	"compileOnSave": true,
+	"include": ["src", "src/**/*.json"],
+	"exclude": ["**/*.spec.ts", "**/*.test.ts", "**/__tests__/*", "**/__mocks__/*", "**/tests/*"]
+}
